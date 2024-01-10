@@ -86,12 +86,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\Users\Nikita Efimenko\OneDrive\Documents\Libs\SFML-2.5.1\include;.\..\..\..\SFML\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SFML-2.5.1\include;.\..\..\..\SFML\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Nikita Efimenko\OneDrive\Documents\Libs\SFML-2.5.1\lib;.\..\..\..\SFML\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\SFML-2.5.1\lib;.\..\..\..\SFML\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>"freetype.lib";"winmm.lib";"gdi32.lib";"openal32.lib";"flac.lib";"vorbisenc.lib";"vorbisfile.lib";"vorbis.lib";"ogg.lib";"ws2_32.lib";"opengl32.lib";"sfml-graphics-s-d.lib";"sfml-window-s-d.lib";"sfml-system-s-d.lib";"sfml-audio-s-d.lib";%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>
       </SubSystem>
@@ -121,13 +121,13 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>C:\Users\Nikita Efimenko\OneDrive\Documents\Libs\SFML-2.5.1\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SFML-2.5.1\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Users\Nikita Efimenko\OneDrive\Documents\Libs\SFML-2.5.1\lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\SFML-2.5.1\lib;</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
